@@ -1,81 +1,185 @@
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f6fc;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Azul claro */
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    color: #1a73e8;
-}
-
-p {
-    line-height: 1.6;
-}
-
-.image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.table th, .table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-a {
-    color: #1a73e8;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.credit {
-    font-style: italic;
-    color: #777;
-    margin-top: 20px;
-}
-
-.nombres {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f8ff; /* Azul claro */
   text-align: center;
 }
 
-.juegos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  .img {
-    width: 80%;
-    height: auto;
-    border-radius: 30px;
-    margin-bottom: 20px;
-  }
+h1 {
+  color: #000080; /* Azul oscuro */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Azul claro */
+  border-bottom: 1px solid #ccc;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #65788B/* Azul oscuro */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00698f; /* Azul oscuro con un toque de verde */
+}
+
+section {
+  padding: 20px;
+  background-color: #f0f8ff; /* Azul claro */
+  border-bottom: 1px solid #ccc;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+section h2 {
+  color: #000080; /* Azul oscuro */
+}
+
+section p {
+  color: #666; /* Gris oscuro */
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+section li:last-child {
+  margin-bottom: 0;
+}
+
+section a {
+  color: #000080; /* Azul oscuro */
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #00698f; /* Azul oscuro con un toque de verde */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn-adn {
+  background-color: #add8e6; /* Azul claro */
+  color: #000080; /* Azul oscuro */
+}
+
+.btn-arn {
+  background-color: #87ceeb; /* Azul cielo */
+  color: #000080; /* Azul oscuro */
+}
+
+button:hover {
+  background-color: #00688b; /* Azul oscuro */
+  color: #f0f8ff; /* Azul claro */
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+
+.image:hover {
+  border-color: #00698f; /* Azul oscuro con un toque de verde */
+}
+
+
+.game-buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-adn {
+  background-color: #add8e6; /* Azul claro */
+  color: #000080; /* Azul oscuro */
+}
+
+.btn-arn {
+  background-color: #87ceeb; /* Azul cielo */
+  color: #000080; /* Azul oscuro */
+}
+
+.btn-quiz {
+  background-color: #ffa07a; /* Naranja claro */
+  color: #8b4513; /* Marrón oscuro */
+}
+
+button:hover {
+  background-color: #00688b; /* Azul oscuro */
+  color: #f0f8ff; /* Azul claro */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+.hidden {
+  display: none !important;
+}
+
+  .imag {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: #f0f8ff; /* Azul claro */
+  border-radius: 50%;
+  border: 5px solid #87ceeb; /* Azul cielo */
+  box-shadow: 0 0 10px #87ceeb, 0 0 20px #87ceeb, 0 0 30px #87ceeb, 0 0 40px #87ceeb, 0 0 70px #87ceeb;
+  text-align: center;
+  line-height: 150px;
+  font-size: 24px;
+  color: #000080; /* Azul oscuro */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pen {
+  background-color: #98FB98; /* Verde claro */
+  padding: 10px;
+  border-radius: 5px;
+  color: #006400; /* Verde oscuro */
+  font-weight: bold;
+}
